@@ -6,7 +6,7 @@ import { AuthService } from '../services/auth.service';
 @Component({
   selector: 'app-login',
   template: `
-    <p>login works! </p>
+   <h3>HttpInterCeptor example</h3>
     <button (click)="getData()">Get Data</button>
     <div *ngIf="response">
       <h3>Response:</h3>

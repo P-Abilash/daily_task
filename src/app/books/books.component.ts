@@ -11,6 +11,7 @@ import { ResolveService } from '../services/resolve.service';
       books works!
     </p>
     <h2>Book List</h2>
+    <h3>resolve guard example</h3>
     <ul>
       <li *ngFor="let book of books">
         <a [routerLink]="['/books', book.id]">{{ book.title }}</a>
