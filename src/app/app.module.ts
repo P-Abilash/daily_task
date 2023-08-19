@@ -28,6 +28,7 @@ import { DeactivateComponent } from './deactivate/deactivate.component';
 import { CandeactivateGuard } from './guard/candeactivate.guard';
 import { InterceptorInterceptor } from './interceptor/interceptor.interceptor';
 import { NavComponent } from './nav/nav.component';
+import { Changedetection3Component } from './changedetection3/changedetection3.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { NavComponent } from './nav/nav.component';
     BooksComponent,
     BookDetailsComponent,
     DeactivateComponent,
-    NavComponent
+    NavComponent,
+    Changedetection3Component
   ],
   imports: [
     BrowserModule,

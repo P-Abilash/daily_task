@@ -22,6 +22,9 @@ import { ResolveService } from '../services/resolve.service';
     <ul>
       <li *ngFor="let item of mergedData">{{ item | json }}</li>
     </ul>
+
+    <!-- change detection  -->
+    app-changedetection3 <app-changedetection3></app-changedetection3>
   `,
   styles: [
   ]
