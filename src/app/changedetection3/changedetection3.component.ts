@@ -11,7 +11,7 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/
   `,
   styles: [
   ],
-  // changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class Changedetection3Component {
 
@@ -28,8 +28,8 @@ ngOnInit(): void {
   setInterval(()=>{
     this.title = Math.random();
     // this.cf.markForCheck();
-    //this.cf.detectChanges(); // we used this only we used detach 
-    //this.cf.reattach(); // we only use this on the time of using detch for unfreze our component. 
+    this.cf.detectChanges(); // we used this only we used detach 
+    // this.cf.reattach(); // we only use this on the time of using detch for unfreze our component. 
     
   
   },1000)

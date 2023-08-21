@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
     <p>
       home works!
     </p>
+
+   <p> life cyclehooks</p>
   `,
   styles: [
   ]

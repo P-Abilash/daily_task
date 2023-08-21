@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
   <p>Platform: {{ platform }}</p>
   <button (click)="detectPlatform()">Detect Platform</button>
 </div>
+<app-lifecycle [user]="someUser"></app-lifecycle>
 
 
   `,
@@ -19,6 +20,7 @@ import { Component } from '@angular/core';
 })
 export class ShareComponent {
   platform: string;
+  someUser = { username: 'John', email: 'john@example.com' };
 
   constructor() {
     this.platform = 'Unknown';
